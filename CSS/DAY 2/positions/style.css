@@ -1,0 +1,23 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: relative;
+    /* top: 100px; */
+    margin: auto;
+}
+
+/* relative-positioning: it will move the element relative to its normal position
+
+absolute-positioning: it will move the element relative to the nearest positioned ancestor 
+
+static-positioning: it will keep the element in its normal position */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    /* left: 0px; */
+    right: 0px;
+}
