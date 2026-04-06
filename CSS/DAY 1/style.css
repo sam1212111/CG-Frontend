@@ -1,0 +1,164 @@
+/* Selectors are id,class,tagname.grouping,universal */
+/* Id selector is given more preference */
+
+/* id -> class -> tagname */
+/* =========================
+   UNIVERSAL SELECTOR
+========================= */
+*{
+    margin: 0;
+    padding: 0;
+    background-color:aquamarine;
+}
+
+
+/* =========================
+   TAG / ELEMENT SELECTOR
+========================= */
+body{
+    background-color: rgb(35, 229, 255);
+    text-align: center;
+}
+
+
+/* =========================
+   ID SELECTOR
+========================= */
+#greeting{
+    color: rgb(194, 88, 233);
+}
+
+
+/* =========================
+   CLASS SELECTOR
+========================= */
+.head{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* =========================
+   GROUPING SELECTOR
+========================= */
+h1, h3, p{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+/* =========================
+   ATTRIBUTE SELECTOR
+========================= */
+h1[id="question"]{
+    border: 3px solid rgb(234, 53, 53);
+}
+
+h1[class="head"]{
+    text-transform: uppercase;
+}
+
+
+/* =========================
+   DESCENDANT SELECTOR (space)
+========================= */
+body p{
+    color: darkblue;
+}
+
+
+/* =========================
+   CHILD SELECTOR (>)
+========================= */
+body > h1{
+    border-radius: 10px;
+}
+
+
+/* =========================
+   ADJACENT SIBLING (+)
+========================= */
+h1 + h1{
+    background-color: orange;
+}
+
+
+/* =========================
+   GENERAL SIBLING (~)
+========================= */
+h1 ~ p{
+    border: 2px dashed red;
+}
+
+
+/* =========================
+   PSEUDO CLASSES
+========================= */
+h1:hover{
+    color: red;
+}
+
+p:hover{
+    background-color: yellow;
+}
+
+h3:active{
+    color: green;
+}
+
+
+/* =========================
+   STRUCTURAL PSEUDO CLASSES
+========================= */
+h1:first-child{
+    border: 5px solid green;
+}
+
+h1:last-of-type{
+    font-style: italic;
+}
+
+p:nth-child(3){
+    color: purple;
+}
+
+
+/* =========================
+   PSEUDO ELEMENTS
+========================= */
+p::first-letter{
+    font-size: 40px;
+    color: red;
+}
+
+p::before{
+    content: "👉 ";
+}
+
+p::after{
+    content: " ✔";
+}
+
+
+/* =========================
+   COMBINED SELECTOR
+========================= */
+h1.head{
+    letter-spacing: 2px;
+}
+
+
+/* =========================
+   MULTIPLE CLASS SELECTOR
+========================= */
+.head.greeting{
+    color: black;
+}
+
+
+/* =========================
+   EXTRA STYLING
+========================= */
+h3{
+    padding-top: 50px;
+}

@@ -1,0 +1,40 @@
+
+
+
+a:link{
+    color: rgb(190, 78, 78);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(78, 190, 78);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(30, 30, 164);
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(190, 190, 78);
+    text-decoration: none;}
+
+input:focus{
+    background-color: rgb(190, 78, 190);
+}
+
+
+input:checked{ 
+    accent-color: rgb(197, 253, 55);
+}
+input[type="checkbox"]:hover{
+    accent-color: red;
+}
+
+input:disabled{
+    background-color: rgb(202, 180, 180);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(78, 190, 190);
+}

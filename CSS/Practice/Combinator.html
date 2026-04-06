@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .biryani    ~ li{
+            color:red;
+        }
+        .type+li{
+            color:cyan;
+        }
+        .lassi~li{
+            color:green;
+        }
+        .lassi~.sugar{
+            color:grey;
+        }
+        .sample li:nth-child(2){
+            color: red;
+        }
+        /* It will select the first list type of child */
+        .sample li:first-of-type{
+            color: blue;
+        }
+        .sample li:last-of-type{
+            color:aqua;
+        }
+        .sample h1:last-of-type{
+            color:chocolate;
+        }
+        .sample h1:first-of-type{
+            color:crimson;
+        }
+        
+    </style>
+</head>
+<body>
+    <ul >
+        <h1 class="biryani">Ingredients for Biryani</h1>
+        <li>Rice</li>
+        <li>Chicken</li>
+        <ul class="type">
+            <li>Fried</li>
+            <li>Grilled</li>
+            <li>Roasted</li>
+        </ul>
+        <li>Paneer</li>
+        <h1>Fighter Jet</h1>
+            <li>Spices</li>
+            <li>Gas/Electric</li>
+            <li>Fuel</li>
+    </ul>
+    <hr>
+    <ul >
+        <h1 class="lassi">Ingredients for lassi</h1>
+        <li>Curd</li>
+        <li>Water</li>
+        <li>Sugar</li>
+        <ul class="sugar">
+            <li>White Sugar</li>
+            <li>Brown Sugar</li>
+        </ul>
+        <li>Malai</li>
+        <li>Kova</li>
+    </ul>
+
+    //first-child nthchild last-child
+    <ul class="sample">
+        <h1>Header</h1>
+        <li>Jarman</li>
+        <li>Barman</li>
+        <li>Harman</li>
+        <li>Yamuri</li>
+        <h1>footer</h1>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* by default margin is 8px so we have to make it to 0 */
+
+div{
+    background-color: rgba(115, 177, 205, 0.2);
+    width: 600px;
+    height: 400px;
+    /* width: 100vw;
+    height: 100vh; */
+    font-size: 40px;
+    border-radius: 40px;
+        
+}
+
+main{
+    background-color: rgba(194, 244, 33,0.7);
+    width: 300px;
+    height: 200px;
+    margin:auto;
+    font-size: 1em;
+    border-radius: 40px;
+    
+}
+
+p{
+    margin-left: 30px;
+   padding-top: 20px;
+}
+
+/* for em it will take 1em = neareast parent size and for rem it will take 1rem = root size */

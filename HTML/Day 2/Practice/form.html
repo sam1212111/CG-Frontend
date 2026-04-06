@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+</head>
+<body>
+    <form action="" method="put">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Yhna pr username likho">
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br><br> 
+        Gender:   
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="male" id="Male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female" id="female">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" name="email">
+        <br><br>
+        Skills:
+        <label for="skills">CSS</label>
+        <input type="checkbox" value="CSS" name="skills">
+        <label for="skils">JavaScript</label>
+        <input type="checkbox" value="JavaScript" name="skills">
+        <br><br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="India" selected>India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Nepal">Nepal</option>
+        </select>
+
+        <br><br>
+        <input type="range" name="SKILL LEVEL" min="0" value="7" max="10">
+        <input type="time" name="time" id="">
+        <input type="date" name="date">
+
+        <input type="interest" name="kuchbhi" value="10" readonly>
+
+        <input type="interest" name="kuchbhi2" value="10" disabled>
+        City:
+        <select name="City" id="">
+            <optgroup label="Punjab">
+                <option value="Jalandhar">Jalandhar</option>
+                <option value="amritsar"> Amritsar</option>
+            </optgroup>
+            <optgroup label="Rajasthan">
+                <option value="jaipur">jaipur</option>
+                <option value="sikar">sikar</option>
+            </optgroup>
+        </select>
+
+        <input type="reset">
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>

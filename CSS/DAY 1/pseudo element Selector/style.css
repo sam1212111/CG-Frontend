@@ -1,0 +1,35 @@
+h1::first-letter{
+    color: red;
+    font-size: 200%;
+}
+
+/* change the first line style */
+p::first-line{
+    color: blue;
+    font-size: 150%;
+}
+
+h1::before{
+    content: "😎";
+}
+h1::after{
+    content: "❤️";
+    font-size: 200%;
+}
+
+/* change the colour when we select the texts */
+p::selection{
+    color: white;
+    background-color: rgb(210, 50, 50);
+}
+
+/* change the marker style for list items */
+li::marker{
+    content: "👉";
+}
+
+/* change the placeholder text style for input fields */
+input::placeholder{
+    color: rgb(97, 97, 247);
+    font-style: italic;
+}
