@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-nav{
+   background-color: #157247;
+   color: white;
+   padding: 8px;
+    text-align: center;
+}
+
+#top-nav a{
+    color: white;
+    text-decoration: underline;
+}
+
+.logo{
+    display: block;
+    margin: 20px auto;
+    width: 25px;
+    height: 30px;
+}

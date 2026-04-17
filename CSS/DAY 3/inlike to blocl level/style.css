@@ -1,0 +1,18 @@
+a {
+    height: 70px;
+    width: 100px;
+    display: block;
+    color: blueviolet;
+    background-color: rgb(21, 209, 209);
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;
+    /* visibility: hidden; */
+    /* it will hide the element but occupy the space */
+}
+
+h1{
+    /* display: none; it will hide element totally */
+
+    visibility: hidden;
+}

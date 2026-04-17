@@ -1,0 +1,36 @@
+.container{
+    height: 500px;
+    width: 600px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    display: flex;
+    align-items:center;
+    /*its for centering vertical*/
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /*its for centering horizontal*/
+    flex-wrap: wrap;
+    /*it will wrap the boxes to next line if there is not enough space in one line*/
+    align-content: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/* just for centering the number written */
+
+
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    border: solid black 2px;
+}
+
+#box1{
+    /* align-self: flex-start; */
+}

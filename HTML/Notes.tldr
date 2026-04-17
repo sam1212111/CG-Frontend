@@ -13,15 +13,16 @@
 			"com.tldraw.instance_presence": 6,
 			"com.tldraw.pointer": 1,
 			"com.tldraw.shape": 4,
-			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.user": 1,
 			"com.tldraw.asset.image": 6,
 			"com.tldraw.asset.video": 5,
+			"com.tldraw.asset.bookmark": 2,
 			"com.tldraw.shape.group": 0,
 			"com.tldraw.shape.text": 4,
 			"com.tldraw.shape.bookmark": 2,
 			"com.tldraw.shape.draw": 4,
 			"com.tldraw.shape.geo": 11,
-			"com.tldraw.shape.note": 10,
+			"com.tldraw.shape.note": 12,
 			"com.tldraw.shape.line": 5,
 			"com.tldraw.shape.frame": 1,
 			"com.tldraw.shape.arrow": 8,
@@ -378,9 +379,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -549.8115153106183,
-			"y": -2100.2184970872745,
-			"z": 0.5390659291922579,
+			"x": -867.6830485108625,
+			"y": -2651.4221358328764,
+			"z": 0.5435997703615947,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -869,8 +870,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 962.8350439511348,
-			"y": 852.6487239645847,
+			"x": 986.1173385547202,
+			"y": 853.846410290474,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2743,10 +2744,10 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:EFEqThJwaKQ8wAXVdcvfW",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:EFEqThJwaKQ8wAXVdcvfW"
+				"shape:htIKK4wN1c9Pf7cvpc8wO"
 			],
 			"hoveredShapeId": "shape:htIKK4wN1c9Pf7cvpc8wO",
 			"erasingShapeIds": [],
@@ -3556,6 +3557,14 @@
 			"typeName": "shape"
 		},
 		{
+			"name": "",
+			"color": "#11B3A3",
+			"imageUrl": "",
+			"meta": {},
+			"id": "user:AqZXaaMhqFj2TB3bNV71m",
+			"typeName": "user"
+		},
+		{
 			"meta": {},
 			"id": "page:page",
 			"name": "Page 1",
@@ -3572,12 +3581,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:font": "mono",
-				"tldraw:color": "blue",
-				"tldraw:dash": "draw",
-				"tldraw:size": "m"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -3592,7 +3596,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 690.8333129882812,
-				"h": 745.8333129882812
+				"h": 558.3333129882812
 			},
 			"insets": [
 				false,
@@ -3609,7 +3613,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.2000000476837158,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": true,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,

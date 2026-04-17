@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#icon{
+    width: 12px;
+    height: 12px;
+    filter: invert(1);
+}
+
+body{
+background-color: rgb(2, 1, 43);
+}
+
+#units{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+#ubox{
+    padding: 6px 10px;
+    /* width: fit-content; */
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+}
+
+#units option {
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#logosun{
+    width: 30px;
+    height: 30px;
+}
+
+#lbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#heading{
+    color: white;
+    font-size: 60px;
+font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 60px;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    filter: invert(1);
+}
+
+#insideMain input {
+    padding: 10px 12px 10px 40px;
+    width: 600px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #2c2f4a;
+    color: rgb(255, 255, 255);
+}
+
+#insideMain input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#search-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #4556ef;
+    color: white;
+    font-weight: bold;
+    /* font-size: 13px; */
+}
+
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  
+}

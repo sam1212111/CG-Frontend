@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-color: #18747e; 
+    
+}   
+
+.menu{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+
+.hamburger{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#toggle{
+    display: none;
+}
+
+
+@media (max-width: 767px){
+    .menu{
+        display: none;
+        flex-direction: column;
+        background-color: rgb(37, 226, 147);
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width:20%;
+    }
+    
+    #toggle:checked + .hamburger + .menu{
+    display: flex;
+    align-items: right;
+}
+
+    .hamburger{
+        display: block;
+    }
+
+}

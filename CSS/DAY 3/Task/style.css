@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+#navi{
+    height: 50px;
+    width: 100%;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px;
+}
+
+#logo{
+    justify-self:flex-start;
+    border-radius: 50%;
+}
